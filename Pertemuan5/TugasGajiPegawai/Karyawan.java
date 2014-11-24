@@ -1,51 +1,16 @@
 package Pertemuan5.TugasGajiPegawai;
 public class Karyawan {
-    private String nama;
-    private String nip;
-    private String golongan;
-    private double gaji;
-    public void setNama(String nama)
-    {
-        this.nama=nama;
-    }
-    public void setNip(String nip)
-    {
-        this.nip=nip;
-    }
-    
-    public void setGolongan(String golongan)
-    {
-        this.golongan=golongan;
-        switch(golongan.charAt(0)){
-            case 1:this.gaji=200000;
-            break;
-            case 2:this.gaji=300000;
-            break;
-            case 3:this.gaji=400000;
-            break;
-            case 4:this.gaji=500000;
-            break;
-        }
-    }
-    public void setGaji(double gaji)
-    {
-        this.gaji=gaji;
-    }
-    public String getNama()
-    {
-        return nama;
-    }
-    public String getNip()
-    {
-        return nip;
-    }
-    public String getGolongan()
-    {
-        return golongan;
-    }
-    public double getGaji()
-    {
-        return gaji;
-    }
-    
+    public void sh(){
+        int a=1800000;
+        int b=200000;
+        int c=300000;
+        int d=400000;
+        int e=500000;
+        
+        System.out.println("Gaji Pokok : "+a);
+        System.out.println("Tunjangan golongan I : "+b);
+        System.out.println("Tunjangan golongan II : "+c);
+        System.out.println("Tunjangan golongan III : "+d);
+        System.out.println("Tunjangan golongan : "+e);
+    }    
 }
